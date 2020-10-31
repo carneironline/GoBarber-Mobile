@@ -1,9 +1,11 @@
 import React from 'react';
-import { View, ScrollView, KeyboardAvoidingView, Platform, TextInput } from 'react-native'
+import { Image, View, ScrollView, KeyboardAvoidingView, Platform, TextInput } from 'react-native'
 import Icon from 'react-native-vector-icons/Feather'
 import { useNavigation } from '@react-navigation/native'
 import { Form } from '@unform/mobile'
 import { FormHandles } from '@unform/core'
+
+import logoImg from '../../assets/logo.png'
 
 import Input from '../../components/Input'
 import Button from '../../components/Button'
@@ -28,6 +30,8 @@ const SignUp: React.FC = () => {
             contentContainerStyle={{flex: 1}}
           >
             <Container>
+              <Image source={logoImg} />
+
               <View>
                 <Title>Crie sua conta</Title>
               </View>

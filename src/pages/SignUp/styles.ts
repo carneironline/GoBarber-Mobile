@@ -11,9 +11,9 @@ import { getBottomSpace } from 'react-native-iphone-x-helper'
 
  export const Title = styled.Text`  
    font-family: 'Roboto-Medium'; 
-   font-size: 20px;
-   color: #fff;
-   margin: 0px 0 24px;
+   font-size: 24px;
+   color: #f4ede8;
+   margin: 64px 0 24px;
  `
 
  export const BackToSignIn = styled.TouchableOpacity`
